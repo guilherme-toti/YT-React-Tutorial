@@ -27,9 +27,11 @@ class App extends Component {
     this.state = {
       labelText: '',
     };
+
+    this.setLabelText = this.setLabelText.bind(this);
   }
 
-  setLabelText = (labelText) => {
+  setLabelText(labelText) {
     this.setState({ labelText });
   }
 

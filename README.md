@@ -3,6 +3,13 @@
 - Este repositório utiliza [Create React App](https://github.com/facebookincubator/create-react-app);
 - Este repositório é relacionado a essa [Playlist do YouTube](https://www.youtube.com/playlist?list=PLe4SO60BV_r0hkjGFaGcmHCtmD5EUzDxM);
 
+#### Cada **tag** diz respeito a um vídeo da série, sendo elas:
+- [1.0](https://github.com/guilherme-toti/YT-React-Tutorial/tree/1.0): Tutorial de React.JS iniciante, Virtual DOM, JSX, Create React App ([Link do vídeo](https://www.youtube.com/watch?v=ghEdUzwRsHo))
+- [2.0](https://github.com/guilherme-toti/YT-React-Tutorial/tree/2.0): Tutorial de React.JS Iniciante - Components, Props, State ([Link do vídeo](https://www.youtube.com/watch?v=WPYI2CcRX7c))
+- [3.0](https://github.com/guilherme-toti/YT-React-Tutorial/tree/3.0): Tutorial de React.JS iniciante, Component Lifecycle, Constructor ([Link do vídeo](https://www.youtube.com/watch?v=T8tKW-4klWg))
+- 4.0: Tutorial de React.JS iniciante, Render e Função Pura ([Link do vídeo](https://www.youtube.com/watch?v=oy-d8v35mVc))
+- [5.0](https://github.com/guilherme-toti/YT-React-Tutorial/tree/5.0): Tutorial de React.JS iniciante, componentDidMount, Listener e Promise ([Link do vídeo](https://www.youtube.com/watch?v=dkhDfulITBc))
+
 ## Comandos principais
   - [npm start](#npm-start)
   - [npm test](#npm-test)

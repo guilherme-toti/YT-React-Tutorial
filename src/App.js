@@ -1,34 +1,26 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import './App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    
-    this.state = {
-      data: []
-    }
-  }
+import Repositories from "./containers/Repositories";
+import Repository from "./containers/Repository";
 
-  componentDidMount() {
-    axios.get('https://api.github.com/repositories')
-      .then(({ data }) => {
-        this.setState({ data })
-      })
-  }
-
-  render() {
-    const { data } = this.state
-
-    return (
+function App() {
+  return (
+    <Router>
       <div className="App">
-        <ul>
-          {data.map(item => <li key={item.id}>{item.full_name}</li>)}
-        </ul>
+        <Switch>
+          <Route path="/repos/:owner/:name" component={Repository} />
+          <Route path="/" component={Repositories} />
+        </Switch>
       </div>
-    );
-  }
+    </Router>
+  )
 }
 
 export default App;
